@@ -457,7 +457,7 @@
 					type = "ext4";
 					mnt_flags = "ro,barrier=1,discard";
 					fsmgr_flags = "wait,avb";
-					status = "ok";
+					status = "disabled";
 				};
 				vendor {
 					compatible = "android,vendor";
@@ -465,7 +465,7 @@
 					type = "ext4";
 					mnt_flags = "ro,barrier=1,discard";
 					fsmgr_flags = "wait,avb";
-					status = "ok";
+					status = "disabled";
 				};
 			};
 		};
